@@ -1,4 +1,4 @@
-export default function AddTopic() {
+export default function EditTopicForm() {
   return (
     <form className="flex flex-col gap-3">
       <input
@@ -14,7 +14,7 @@ export default function AddTopic() {
       />
 
       <button className="bg-green-600 font-bold text-white py-3 px-6 w-fit rounded">
-        Add Topic
+        Update Topic
       </button>
     </form>
   );
